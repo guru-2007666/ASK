@@ -73,7 +73,7 @@ decoded = (demod[::fs//br] > 0.25).astype(int)
 
 # Plot
 plt.figure(figsize=(10,9))
-plt.suptitle("NAME :BHUVANESH P\nREG NO : 212224060047",fontsize=12, fontweight='bold')
+plt.suptitle("NAME :GURUBARAN S A\nREG NO : 212224060087",fontsize=12, fontweight='bold')
 
 plt.subplot(4,1,1)
 plt.plot(t, msg)
@@ -134,7 +134,7 @@ demod = np.repeat(dec, bd)
 
 # Plot
 plt.figure(figsize=(10,10))
-plt.suptitle("NAME :BHUVANESH P\nREG NO : 212224060047",fontsize=12, fontweight='bold')
+plt.suptitle("NAME : GURUBARAN S A\nREG NO : 212224060087",fontsize=12, fontweight='bold')
 
 plt.subplot(5,1,1); plt.plot(t, msg); plt.title("Message Signal")
 plt.subplot(5,1,2); plt.plot(t, c1); plt.title("Carrier f1 (bit 0)")
@@ -148,12 +148,11 @@ plt.show()
 
 # Output Waveform
 ## ASK
-<img width="978" height="887" alt="image" src="https://github.com/user-attachments/assets/bdaa2781-7e67-42c3-abf5-6edf53f6463e" />
+<img width="1256" height="1107" alt="image" src="https://github.com/user-attachments/assets/c2529a98-5512-4db4-9952-62d110c7b6f0" />
 
 
 ## FSK
-<img width="989" height="985" alt="image" src="https://github.com/user-attachments/assets/ebe3b81a-b8ba-4994-b835-c6c28c7fb161" />
-
+<img width="1299" height="1199" alt="image" src="https://github.com/user-attachments/assets/2260412a-3572-4afd-a4a8-1fd982f4c0e0" />
 
 # Results
 Thus the ASK AND FSK experiment has been completed and it is verified successfully
